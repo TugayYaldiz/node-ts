@@ -18,13 +18,6 @@ const config: IConfig = {
     },
     strict: false,
   },
-  twilio: {
-    maxAllowedSessionDuration: 14400,
-    accountSID: process.env.TWILIO_ACCOUNT_SID ?? '',
-    apiSID: process.env.TWILIO_API_KEY_SID ?? '',
-    apiKeySecret: process.env.TWILIO_API_KEY_SECRET ?? '',
-    authToken: process.env.TWILIO_AUTH_TOKEN ?? '',
-  },
   sentry: {
     level: 'warn',
     config: {

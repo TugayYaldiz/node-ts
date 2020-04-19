@@ -26,19 +26,10 @@ export interface ISentry {
   silent: boolean;
 }
 
-export interface ITwilio {
-  maxAllowedSessionDuration: number;
-  accountSID: string;
-  apiSID: string;
-  apiKeySecret: string;
-  authToken: string;
-}
-
 export interface IConfig {
   appBaseUrl: string;
   allowedLocalAddresses: string[];
   originWhitelist: string[];
   mongoDB: IMongoDB;
-  twilio: ITwilio;
   sentry: ISentry;
 }
