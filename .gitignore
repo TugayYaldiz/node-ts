@@ -1,0 +1,10 @@
+.*
+!.gitignore
+!.prettierrc
+!.nvmrc
+!.mocharc.yml
+
+node_modules
+coverage
+dist
+junit-test-report.xml

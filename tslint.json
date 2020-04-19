@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-config-prettier"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*.ts",
+      "src/typings/global/index.d.ts"
+    ]
+  },
+  "rules": {
+    "interface-name": true,
+    "member-access": [true, "no-public"],
+    "no-console": [false, "log"],
+    "max-classes-per-file": false,
+    "no-implicit-dependencies": false,
+    "no-shadowed-variable": false,
+    "no-object-literal-type-assertion": false,
+    "no-submodule-imports": [false],
+    "ordered-imports": [true],
+    "no-var-requires": false,
+    "interface-over-type-literal": false
+  }
+}

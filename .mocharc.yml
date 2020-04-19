@@ -1,0 +1,7 @@
+exit: true
+extension:
+  - ts
+file:
+  - 'src/test/test-helpers/login.spec.ts'
+recursive: true
+timeout: 30000
