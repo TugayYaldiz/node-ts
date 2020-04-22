@@ -7,7 +7,7 @@
 
 ### Dependencies ###
 
-* Node.js `>= 13.12.0`
+* Node.js `>= 14.0.0`
 
 ### Development Dependencies ###
 
